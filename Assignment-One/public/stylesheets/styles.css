@@ -1,0 +1,92 @@
+.center-text {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+.news-section {
+    width: 60%;
+    margin: 30px auto;
+}
+
+.news-section h1{
+    text-align: center;
+}
+
+.news-section ul {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.small-image {
+    width: 250px;
+    height: auto;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.figure {
+    text-align: center;
+}
+
+.figcaption {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.committee {
+    display: flex;
+    justify-content: center
+}
+
+body {
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url('../Nishiura.jpg') center;
+    filter: grayscale(100%);
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.aboutus p {
+    font-weight: bold;
+}
+
+.links {
+    font-size: 16px;
+    color: blue;
+}
+
+.autextcontainer {
+    padding: 10px;
+    border: 10px;
+    border-color: red;
+    border-style: solid;
+    width:fit-content;
+    text-align: center;
+}
+
+.htextcontainer {
+    padding: 10px;
+    border: 5px;
+    /* border-color: red;
+    border-style: solid; */
+    width:fit-content;
+    text-align: center;
+}
